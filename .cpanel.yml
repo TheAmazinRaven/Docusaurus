@@ -17,4 +17,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/theamazinraven/docusaurus.raedickerson.dev/
-    - /bin/cp -R src/my-website $DEPLOYPATH
+    - /bin/cp -R build/* $DEPLOYPATH
