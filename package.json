@@ -1,0 +1,9 @@
+{
+  "name": "cute-pink-theme",
+  "version": "1.0.0",
+  "description": "My cute pink Docu theme :D",
+  "main": "index.js",
+  "repository": "https://github.com/TheAmazinRaven/Docusaurus.git",
+  "author": "Raven Dickerson <raejdickerson@gmail.com>",
+  "license": "MIT"
+}
