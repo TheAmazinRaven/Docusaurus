@@ -7,8 +7,8 @@
 #     - bin/cp/docusaurus.raedickerson.dev/ -R img $DEPLOYPATH
 #     - bin/cp -R my-website $DEPLOYPATH
 
----
 deployment:
   tasks:
     - export DEPLOYPATH=/home/theamazinraven/docusaurus.raedickerson.dev/
     - /bin/cp -R src/my-website $DEPLOYPATH
+  source: head
