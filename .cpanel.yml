@@ -2,6 +2,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/theamazinraven/docusaurus.raedickerson.dev/
-    - /bin/cp/pages index.js $DEPLOYPATH
-    - /bin/cp/css custom.css $DEPLOYPATH
+    # - /bin/cp/my-website/pages index.js $DEPLOYPATH
+    # - /bin/cp/my-website/src/css custom.css $DEPLOYPATH
     - bin/cp/docusaurus.raedickerson.dev/ -R img $DEPLOYPATH
+    - bin/cp -R my-website $DEPLOYPATH
