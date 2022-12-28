@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/theamazinraven/docusaurus.raedickerson.dev/
+    - export DEPLOYPATH=/home/theamazinraven/docusaurus.raedickerson.dev/index.html
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
     - bin/cp/docusaurus.raedickerson.dev/ -R img $DEPLOYPATH
